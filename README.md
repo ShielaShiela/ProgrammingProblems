@@ -3,9 +3,16 @@
 Welcome to the programming problems archive. Problems are grouped by category and may appear in multiple sections if applicable.
 
 ---
+## Programming Problems Solved
+- [Problem Maximum Subarray Sum](problems/problem-001/README.md)
+- [Problem Concert Tickets](problems/problem-001/README.md)
+- [Problem Sliding Window Median](problems/problem-001/README.md)
+- [Problem Sliding Window Cost](problems/problem-001/README.md)
+- [Problem Hanoi Tower](problems/problem-001/README.md)
 
+<!---
 ## 📂 Data Structures
-- [Problem 001: Find the Maximum Number](problems/problem-001/README.md)
+- [Problem Maximum Subarray Sum](problems/problem-001/README.md)
 
 ---
 
@@ -31,4 +38,4 @@ Welcome to the programming problems archive. Problems are grouped by category an
 ---
 
 ## 🧠 Hard Problems
-*No problems listed yet.*
+*No problems listed yet.* --->
