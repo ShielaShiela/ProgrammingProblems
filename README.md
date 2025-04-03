@@ -7,7 +7,7 @@ Welcome to the programming problems archive. Problems are grouped by category an
 - [Problem Maximum Subarray Sum](https://github.com/ShielaShiela/ProgrammingProblems/blob/874a54d8ef70b657916a32f6106ff8c81544ae4a/Maximum%20Subarray%20Sum.md)
 - [Problem Concert Tickets](https://github.com/ShielaShiela/ProgrammingProblems/blob/9c8a0d0bb520a1bbba8e97f48c6e893e521c8884/Concert%20Tickets.md)
 - [Problem Sliding Window Median](https://github.com/ShielaShiela/ProgrammingProblems/blob/46cc0ecee719e8918a829663b791bf1df48bbde7/Maximum%20Subarray%20Sum.md)
-- [Problem Sliding Window Cost](problems/problem-001/README.md)
+- [Problem Sliding Window Cost](https://github.com/ShielaShiela/ProgrammingProblems/tree/dceb3ba49e315fb6531b49eafab4791638230d85)
 - [Problem Hanoi Tower](problems/problem-001/README.md)
 
 <!---
