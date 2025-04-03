@@ -1,6 +1,6 @@
 # 📚 List of Programming Problems
 
-Welcome to the programming problems archive. Problems are grouped by category and may appear in multiple sections if applicable.
+Here the solutions for the problems we have solved.
 
 ---
 ## Programming Problems Solved
@@ -8,7 +8,7 @@ Welcome to the programming problems archive. Problems are grouped by category an
 - [Problem Concert Tickets](https://github.com/ShielaShiela/ProgrammingProblems/blob/9c8a0d0bb520a1bbba8e97f48c6e893e521c8884/Concert%20Tickets.md)
 - [Problem Sliding Window Median](https://github.com/ShielaShiela/ProgrammingProblems/blob/46cc0ecee719e8918a829663b791bf1df48bbde7/Maximum%20Subarray%20Sum.md)
 - [Problem Sliding Window Cost](https://github.com/ShielaShiela/ProgrammingProblems/tree/dceb3ba49e315fb6531b49eafab4791638230d85)
-- [Problem Hanoi Tower](problems/problem-001/README.md)
+- [Problem Hanoi Tower](https://github.com/ShielaShiela/ProgrammingProblems/blob/3ee155c00b314f811b97705abbbded4a66ba4157/Tower%20of%20Hanoi)
 
 <!---
 ## 📂 Data Structures
