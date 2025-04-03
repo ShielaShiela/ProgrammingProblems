@@ -1,0 +1,26 @@
+# 💰 Problem 003: Maximum Subarray Sum
+
+🔗 **Problem Link**: [CSES - Maximum Subarray Sum](https://cses.fi/problemset/task/1643/)
+
+---
+
+## 📋 Problem Description
+
+Given an array of `n` integers, your task is to find the **maximum sum** of values in a **contiguous, nonempty subarray**.
+
+---
+
+## 💻 Python Solution
+
+```python
+def max_subarray_sum(arr):
+    max_sum = current_sum = arr[0]
+    for x in arr[1:]:
+        current_sum = max(x, current_sum + x)
+        max_sum = max(max_sum, current_sum)
+    return max_sum
+
+if __name__ == "__main__":
+    n = int(input())
+    arr = list(map(int, input().split()))
+    print(max_subarray_sum(arr))
