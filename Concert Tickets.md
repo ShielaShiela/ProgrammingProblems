@@ -15,39 +15,48 @@ If no suitable ticket is available, print `-1`.
 ## 💻 Python Solution
 
 ```python
-from bisect import bisect_right
-from collections import deque
+import bisect
 
-def concert_tickets(prices, customers):
-    prices.sort()
-    prices = deque(prices)
-    result = []
+def concertTickets(price , pay):
 
-    for x in customers:
-        # Binary search to find the rightmost ticket <= x
-        idx = bisect_right(prices, x) - 1
-        if idx >= 0:
-            result.append(prices[idx])
-            del prices[idx]  # Remove the sold ticket
+    # Create a multiset to store the prices of all tickets
+    maxPrice = sorted(price)
+
+    # Create an array answer to store the answer for each customer
+    ans = [0 for j in range(len(pay))]
+
+    # Now iterate through every customer
+    for i in range(len(pay)):
+    
+        temp = pay[i]
+
+        # Find the upper bound of maximum price offered by customer in the multiset
+        itr = bisect.bisect(maxPrice,temp)
+
+        # If it points to the beginning, that means no ticket is available for the customer
+        # Otherwise, decrement the iterator and get the value out of it and then erase that value from the multiset
+        if (itr == 0):
+            ans[i] = -1
         else:
-            result.append(-1)
-    return result
+            itr -= 1
+            ans[i] = maxPrice[itr]
+            maxPrice.remove(ans[i])
+        
+    # Return the array answer
+    return ans
+
+def main():
+    # Example ticket prices and customer offers
+    ticket_prices = [5, 3, 7, 8, 5]
+    customer_offers = [4, 8, 3]
+
+    # Get the result from the concertTickets function
+    results = concertTickets(ticket_prices, customer_offers)
+
+    # Print the results
+    print("Ticket prices assigned to customers:", results)
 
 if __name__ == "__main__":
-    n, m = map(int, input().split())
-    prices = list(map(int, input().split()))
-    customers = list(map(int, input().split()))
+    main()
 
-    # Using a list to simulate a multiset is not efficient for large inputs.
-    # It's better to use `SortedList` from `sortedcontainers`:
-    from sortedcontainers import SortedList
-    tickets = SortedList(prices)
-
-    for x in customers:
-        i = tickets.bisect_right(x) - 1
-        if i >= 0:
-            print(tickets[i])
-            tickets.pop(i)
-        else:
-            print(-1)
 ```
