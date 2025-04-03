@@ -1,0 +1,28 @@
+#  Problem Tower of Hanoi
+🔗 **Problem Link**: [CSES - Tower of Hanoi ]https://cses.fi/problemset/task/2165
+---
+
+## 📋 Problem Description
+
+The Tower of Hanoi game consists of three stacks (left, middle and right) and n round disks of different sizes. Initially, the left stack has all the disks, in increasing order of size from top to bottom.
+The goal is to move all the disks to the right stack using the middle stack. On each move you can move the uppermost disk from a stack to another stack. In addition, it is not allowed to place a larger disk on a smaller disk.
+Your task is to find a solution that minimizes the number of moves.
+
+---
+## Python Solution
+
+# Recursive Python function to solve the tower of hanoi
+```python
+def TowerOfHanoi(n , source, destination, auxiliary):
+    if n==1:
+        print ("Move disk 1 from source",source,"to destination",destination)
+        return
+    TowerOfHanoi(n-1, source, auxiliary, destination)
+    print ("Move disk",n,"from source",source,"to destination",destination)
+    TowerOfHanoi(n-1, auxiliary, destination, source)
+        
+# Driver code
+n = 4
+TowerOfHanoi(n,'A','B','C') 
+# A, C, B are the name of rods
+```
