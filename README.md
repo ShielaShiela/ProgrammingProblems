@@ -4,7 +4,7 @@ Welcome to the programming problems archive. Problems are grouped by category an
 
 ---
 ## Programming Problems Solved
-- [Problem Maximum Subarray Sum](Maximum Subarray Sum.md)
+- [Problem Maximum Subarray Sum](ProgrammingProblems/Maximum Subarray Sum.md)
 - [Problem Concert Tickets](problems/problem-001/README.md)
 - [Problem Sliding Window Median](problems/problem-001/README.md)
 - [Problem Sliding Window Cost](problems/problem-001/README.md)
