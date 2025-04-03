@@ -5,7 +5,7 @@ Welcome to the programming problems archive. Problems are grouped by category an
 ---
 ## Programming Problems Solved
 - [Problem Maximum Subarray Sum](https://github.com/ShielaShiela/ProgrammingProblems/blob/874a54d8ef70b657916a32f6106ff8c81544ae4a/Maximum%20Subarray%20Sum.md)
-- [Problem Concert Tickets](problems/problem-001/README.md)
+- [Problem Concert Tickets](/ConcetTickets.md)
 - [Problem Sliding Window Median](problems/problem-001/README.md)
 - [Problem Sliding Window Cost](problems/problem-001/README.md)
 - [Problem Hanoi Tower](problems/problem-001/README.md)
