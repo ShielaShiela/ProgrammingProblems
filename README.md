@@ -9,7 +9,7 @@ Here the solutions for the problems we have solved.
 - [Problem Sliding Window Median](https://github.com/ShielaShiela/ProgrammingProblems/blob/46cc0ecee719e8918a829663b791bf1df48bbde7/Maximum%20Subarray%20Sum.md)
 - [Problem Sliding Window Cost](https://github.com/ShielaShiela/ProgrammingProblems/tree/dceb3ba49e315fb6531b49eafab4791638230d85)
 - [Problem Hanoi Tower](https://github.com/ShielaShiela/ProgrammingProblems/blob/3ee155c00b314f811b97705abbbded4a66ba4157/Tower%20of%20Hanoi)
-
+- [Problem Tasks and Schedules](https://github.com/ShielaShiela/ProgrammingProblems/blob/fc8c003b2ffdbd3e44066320df3af5781edbc42f/Tasks%20and%20Deadlines.md)
 <!---
 ## 📂 Data Structures
 - [Problem Maximum Subarray Sum](problems/problem-001/README.md)
